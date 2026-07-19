@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supersimpledev 4i4j</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            border-radius: 20px;
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+        }
+        #addbtn{
+            background-color: yellow;
+            padding: 5px;
+            border-radius: 8px;
+        }
+        #buybtn{
+            background-color: burlywood;
+            padding: 5px;
+            border-radius: 8px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+
+    <div class="text">
+
+        <p>Adults plain cotton t-shirt
+            <br>
+            price : $7.99
+        </p>
+
+    </div>
+
+    <div class="buttons">
+
+    <button id="addbtn" onclick="added()">Add to cart</button>
+    <button id="buybtn" onclick="purchashed()">Buy now</button>
+
+    </div>
+
+</div>
+
+<script>
+
+    function added(){
+        alert('added');
+    }
+
+    function purchashed(){
+        console.log('Loading...');
+        alert('purchased');
+
+    }
+
+
+
+</script>
+</body>
+</html>
