@@ -106,3 +106,40 @@ eg:
 5=='5' //this is False because no type coercion happens.
 ```
 
+# dated 22 jul, 2026:
+
+# Notes:
+
+
+### Ternary Operator:
+
+```JavaScript
+condition ? expressionIfTrue : expressionIfFalse
+```
+
+Major advantage of ternary operator over a if...else statement is it returns a value.
+
+
+```
+const result = isLoggedIn ? 'Welcome back!' : 'Please log in.';
+```
+### Guard operator:
+
+```
+    leftValue && right expression
+```
+
+1. When left value is true, the operator keeps going and returns the value on the right.
+2. When left value is false, the operator stops('short circuits') and returns the value on the left.It ***guards*** the right value from executing.
+
+USE CASE : Run code or evaluate when a condition is met.
+
+### Default operator
+
+```
+    leftValue || right Expression
+```
+1. When left value is false, the operator continues checking and executes and returns the expression on the right('***default***').
+2. When left value is true, the operator stops and returns the left value.
+
+USE CASE : Fall back to a default value when a first can't be used. 
