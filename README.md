@@ -100,9 +100,9 @@ eg:
 
 ```
 
-2. Strict equality(===): Doesn't perform type coersion.
+2. Strict equality(===): Doesn't perform type coercion.
 
 ```Javascript  
-5=='5' //this is False because no type coersion happens.
+5=='5' //this is False because no type coercion happens.
 ```
 
